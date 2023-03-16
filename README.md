@@ -1,2 +1,3 @@
 # Quick-Slot-Machine-JS
-Made one Html/JavaScript
+HTML/CSS/JAVASCRIPT Quick Slot Machine Game
+Enjoy!
