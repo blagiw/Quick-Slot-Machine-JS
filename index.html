@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="./funnyicon/apple-touch-icon.png">
+		<link rel="icon" type="img/png" sizes="32x32" href="./funnyicon/favicon-32x32.png">
+		<link rel="icon" type="img/png" sizes="16x16" href="./funnyicon/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+	  </head>
+<head>
+	<link href="style.css" rel="stylesheet"/>
+	<title>Slot Machine</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		h1 {
+			font-size: 36px;
+			margin-top: 50px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.slot {
+			border: 1px solid rgb(0, 0, 0);
+			padding: 20px;
+			margin: 10px;
+			width: 100px;
+			height: 100px;
+			font-size: 60px;
+			font-weight: bold;
+			text-align: center;
+		}
+		.button {
+			margin-top: 50px;
+			padding: 10px 20px;
+			font-size: 24px;
+			font-weight: bold;
+			border-radius: 5px;
+			background-color: #4CAF50;
+			color: rgb(0, 0, 0);
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<h1>Slot Machine</h1>
+	<div class="container">
+		<div class="slot" id="slot1"></div>
+		<div class="slot" id="slot2"></div>
+		<div class="slot" id="slot3"></div>
+	</div>
+	<button class="button" onclick="spin()">Spin</button>
+	<script src="slot-machine.js">
+		// Define the symbols that can appear on the slots
+const symbols = ['🍒', '🍋', '🍊', '🍇','🍎', '🍉'];</script>
+     <footer>
+		<p>&copy; 2023 Made & Designed By Xape. All Rights Reserved.</p>
+	 </footer>
+	 </body>
+	 </html>

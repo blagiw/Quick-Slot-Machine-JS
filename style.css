@@ -1,0 +1,10 @@
+html{
+    background: url('./img/background2.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    overflow: hidden;
+    -webkit-user-select: none;
+}
